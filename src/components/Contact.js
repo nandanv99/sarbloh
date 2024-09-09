@@ -1,129 +1,64 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 
-
-function Home() {
+const Contact = () => {
     return (
         <div>
-            <div className="position-relative" style={{
-                backgroundImage: 'url("/TestImages/7.png")',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                height: '90vh'
-            }}>
-                <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
-                    <div className="container-fluid">
-                        <Link className="navbar-brand fw-bold d-flex align-items-center mx-3" to="/">
-                            <img src="sarbloh_logo.png" alt="Company Logo" style={{ height: '25px', marginRight: '10px' }} />
-                        </Link>
-                        <button className="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon" style={{ filter: 'brightness(0) invert(1)' }}></span>
-                        </button>
-                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul className="navbar-nav ms-auto ">
-                                <li className="nav-item mx-2 p-2">
-                                    <Link className="nav-link text-white" to="/about">About</Link>
-                                </li>
-                                <li className="nav-item mx-2 p-2">
-                                    <Link className="nav-link text-white" to="/mobility">Solutions</Link>
-                                </li>
-                                <li className="nav-item mx-2 p-2">
-                                    <Link className="nav-link text-white" to="#">Partner</Link>
-                                </li>
-                                <li className="nav-item mx-2 p-2">
-                                    <Link className="nav-link text-white" to="#">Career</Link>
-                                </li>
-                                <li className="nav-item mx-2 p-2">
-                                    <Link className="btn btn-light text-dark" to="/contact" style={{ borderRadius: '9px', border: '1px solid #000' }}>Contact Us</Link>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-                <div className="position-absolute top-50 start-0 translate-middle-y text-white ps-3 ps-md-5" style={{ maxWidth: '90%' }}>
-                    <h1 className="display-2 display-md-2  fw-bold mb-3 mb-md-4">Empowering Your Communities with tailored educational solutions</h1>
-                    <p className="lead fs-6 fs-md-5">
-                        We are a deep tech company focused on community empowerment and mobility solutions.
-                        Our mission is to connect people to the services they need, while creating opportunities
-                        for economic growth and social development. We are rooted in the Canadian Prairies, with
-                        a focus on empowering indigenous communities and those in need.
-                    </p>
-                    <div className="mt-3 mt-md-4 d-flex align-items-center">
-                        <Link to="/learn-more" className="btn btn-outline-light me-2 me-md-3" style={{ borderWidth: '2px', height: '50px', width: '140px', fontSize: '0.9rem', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', borderRadius: '9px' }}>
-                            Learn More
-                        </Link>
-                        <Link to="/apply" className="btn btn-primary text-white" style={{ height: '50px', width: '140px', fontSize: '0.9rem', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', borderRadius: '9px' }}>
-                            Apply Now
-                        </Link>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
+                <div className="container-fluid">
+                    <Link className="navbar-brand fw-bold d-flex align-items-center mx-3" to="/">
+                        <img src="/sarbloh_darkLogo.png" alt="Company Logo" style={{ height: '25px', marginRight: '10px' }} />
+                    </Link>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav ms-auto">
+                            <li className="nav-item mx-2 p-2">
+                                <Link className="nav-link text-black" to="/about">About</Link>
+                            </li>
+                            <li className="nav-item mx-2 p-2">
+                                <Link className="nav-link text-black" to="/mobility">Solutions</Link>
+                            </li>
+                            <li className="nav-item mx-2 p-2">
+                                <Link className="nav-link text-black" to="#">Partner</Link>
+                            </li>
+                            <li className="nav-item mx-2 p-2">
+                                <Link className="nav-link text-black" to="#">Career</Link>
+                            </li>
+                            <li className="nav-item mx-2 p-2">
+                                <Link className="btn btn-dark text-white" to="/contact" style={{ borderRadius: '9px', border: '1px solid #000' }}>Login</Link>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
+            </nav>
 
-            <div className="container mt-3 mt-md-5 py-3 py-md-5">
-                <h2 className='display-4 display-md-3 fw-bold'>Tailored solutions for native communities</h2>
+            <div className="container mt-5">
                 <div className="row">
-                    <div className="col-12 col-md-11">
-                        <p className="lead fs-6 fs-md-5">
-                            We offer a range of educational programs and resources specifically designed to help native communities harness the potential of emerging technologies. Whether you're interested in AI, blockchain, or something else, we have something for you.
-                        </p>
+                    <div className="col-12 col-md-6 d-flex flex-column justify-content-center">
+                        <h2 className="display-4 fw-bold mb-3">Get in Touch</h2>
+                        <p className="mb-4">Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie vel, ornare non id blandit netus.</p>
+                        <form>
+                            <div className="mb-3">
+                                <input type="text" className="form-control" id="name" placeholder="Name*" />
+                            </div>
+                            <div className="mb-3">
+                                <input type="email" className="form-control" id="email" placeholder="Email*" />
+                            </div>
+                            <div className="mb-3">
+                                <textarea className="form-control" id="message" rows="5" placeholder="How can we help?"></textarea>
+                            </div>
+                            <button type="submit" className="btn btn-primary w-100 py-3">Send Message</button>
+                        </form>
+                    </div>
+                    <div className="col-12 col-md-6 d-flex align-items-center justify-content-center mt-4 mt-md-0">
+                        <img src="/TestImages/7.png" alt="Contact" className="img-fluid" style={{maxWidth: '100%', height: 'auto', aspectRatio: '1/1', objectFit: 'cover'}} />
                     </div>
                 </div>
-                <div className="row mt-3">
-                    {['AI and Blockchain', 'Quantum Computing', 'Cybersecurity', 'AI Prompts Engineering', 'Web3 and Metaverse'].map((topic, index) => {
-                        const images = ['/TestImages/1.png', '/TestImages/2.png', '/TestImages/3.png', '/TestImages/4.png', '/TestImages/5.png'];
-                        return (
-                            <div key={index} className="col-12 col-sm-6 col-md-4 mb-4">
-                                <div className="card bg-transparent border-0">
-                                    <div className="card-body p-0">
-                                        <div className="row g-0">
-                                            <div className="col-12">
-                                                <img src={images[index]} alt={topic} className="img-fluid w-100" style={{ height: "20vh", objectFit: "cover", borderRadius: "20px" }} />
-                                            </div>
-                                            <div className="col-12 mt-2">
-                                                <h5 className="card-title fw-bold fs-5 fs-md-4">{topic}</h5>
-                                                <p className="fs-6">Learn how to write AI prompts that generate high-quality, human-like text.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        );
-                    })}
-                </div>
             </div>
-            <div className="container mt-3 mt-md-5 py-3 py-md-5">
-                <h2 className='display-4 display-md-3 fw-bold'>Tailored solutions for native communities</h2>
-                <div className="row">
-                    <div className="col-12 col-md-11">
-                        <p className="lead fs-6 fs-md-5">
-                            We offer a range of educational programs and resources specifically designed to help native communities harness the potential of emerging technologies. Whether you're interested in AI, blockchain, or something else, we have something for you.
-                        </p>
-                    </div>
-                </div>
-                <div className="row mt-3">
-                    {['AI and Blockchain', 'Quantum Computing', 'Cybersecurity', 'AI Prompts Engineering', 'Web3 and Metaverse'].map((topic, index) => {
-                        const images = ['/TestImages/1.png', '/TestImages/2.png', '/TestImages/3.png', '/TestImages/4.png', '/TestImages/5.png'];
-                        return (
-                            <div key={index} className="col-12 col-sm-6 col-md-4 mb-4">
-                                <div className="card bg-transparent border-0">
-                                    <div className="card-body p-0">
-                                        <div className="row g-0">
-                                            <div className="col-12">
-                                                <img src={images[index]} alt={topic} className="img-fluid w-100" style={{ height: "20vh", objectFit: "cover", borderRadius: "20px" }} />
-                                            </div>
-                                            <div className="col-12 mt-2">
-                                                <h5 className="card-title fw-bold fs-5 fs-md-4">{topic}</h5>
-                                                <p className="fs-6">Learn how to write AI prompts that generate high-quality, human-like text.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        );
-                    })}
-                </div>
-            </div>
-            <hr/>
+            <hr className='mt-5 ' />
             <footer className="text-light py-4">
                 <div className="container">
                     <div className="row">
@@ -160,6 +95,6 @@ function Home() {
             </footer>
         </div>
     );
-}
+};
 
-export default Home;
+export default Contact;
