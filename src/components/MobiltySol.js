@@ -44,26 +44,27 @@ function MobilitySol() {
                         </div>
                     </div>
                 </nav>
-                <div className="position-absolute top-50 start-50 translate-middle text-white text-center" style={{ maxWidth: '90%' }}>
-                    <h1 className="display-2 display-md-2 fw-bold mb-3 mb-md-4">Mobility Solutions</h1>
-                    <p className="lead fs-6 fs-md-5">
-                        Empowering low-density areas with innovative transportation options
-                    </p>
+                <div className="position-absolute top-50 start-50 translate-middle text-white text-center" style={{ maxWidth: '100%' }}>
+                    <h1 className="display-3 display-md-3 fw-bold mb-3 mb-md-4">Our Services
+                    </h1>
+                    {/* <p className="lead fs-6 fs-md-5">
+                    We provide programs and resources to help native communities harness the power of emerging technologies like AI and blockchain.
+                    </p> */}
                 </div>
             </div>
 
-            <div className="container py-5">
+            {/* <div className="container py-5">
                 <h3 className="fw-bold mb-4 lead  text-md-start">Why Mobility Solutions?</h3>
                 <p className="lead ">
                     The world is rapidly urbanizing, and the demand for smart, sustainable transportation solutions has never been greater. Our team is committed to developing innovative mobility technologies that empower people to move more freely and efficiently, no matter where they live.
                 </p>
                 <hr className='mt-5' />
-            </div>
+            </div> */}
 
-            <div className="container ">
+            <div className="container py-5">
                 <h2 className="fw-bold mb-4 display-4">What we offer?</h2>
                 <p className="lead mb-5">
-                    Empowering low-density areas with innovative transportation options
+                We offer a range of educational programs and resources specifically designed to help native communities harness the potential of emerging technologies. Whether you're interested in AI, blockchain, or something else, we have something for you.
                 </p>
                 <div className="row my-3">
                     <div className="col-md-8 d-flex flex-column justify-content-center">
