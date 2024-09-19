@@ -28,12 +28,12 @@ const Contact = () => {
                             <li className="nav-item mx-2 p-2">
                                 <Link className="nav-link text-black" to="/mobility">Solutions</Link>
                             </li>
-                            <li className="nav-item mx-2 p-2">
+                            {/* <li className="nav-item mx-2 p-2">
                                 <Link className="nav-link text-black" to="#">Partner</Link>
                             </li>
                             <li className="nav-item mx-2 p-2">
                                 <Link className="nav-link text-black" to="#">Career</Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item mx-2 p-2">
                                 <Link className="btn btn-dark text-white" to="/contact" style={{ borderRadius: '9px', border: '1px solid #000' }}>Login</Link>
                             </li>
@@ -49,10 +49,22 @@ const Contact = () => {
                         <p className="mb-4">At Sarabloh Technologies, we’re always here to help. Whether you have questions about our services, need support, or want to explore partnership opportunities, we’d love to hear from you.</p>
                         <form>
                             <div className="mb-3">
-                                <input type="text" className="form-control" id="name" placeholder="Name*" />
+                                <input type="text" className="form-control" id="name" placeholder="Name" />
                             </div>
                             <div className="mb-3">
-                                <input type="email" className="form-control" id="email" placeholder="Email*" />
+                                <input type="email" className="form-control" id="email" placeholder="Email" />
+                            </div>
+                            <div className="mb-3">
+                                <input type="number" className="form-control" id="email" placeholder="Phone" />
+                            </div>
+                            <div className="mb-3">
+                                <select className="form-select" id="userType" aria-label="Select user type">
+                                    <option selected>Select your role</option>
+                                    <option value="student">Student</option>
+                                    <option value="sales">Sales</option>
+                                    <option value="user">User</option>
+                                    <option value="business">Business Personnel</option>
+                                </select>
                             </div>
                             <div className="mb-3">
                                 <textarea className="form-control" id="message" rows="5" placeholder="How can we help?"></textarea>

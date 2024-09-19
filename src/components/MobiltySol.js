@@ -31,12 +31,12 @@ function MobilitySol() {
                                 <li className="nav-item mx-2 p-2">
                                     <Link className="nav-link text-white" to="/mobility">Solutions</Link>
                                 </li>
-                                <li className="nav-item mx-2 p-2">
+                                {/* <li className="nav-item mx-2 p-2">
                                     <Link className="nav-link text-white" to="#">Partner</Link>
                                 </li>
                                 <li className="nav-item mx-2 p-2">
                                     <Link className="nav-link text-white" to="#">Career</Link>
-                                </li>
+                                </li> */}
                                 <li className="nav-item mx-2 p-2">
                                     <Link className="btn btn-light text-dark" to="/contact" style={{ borderRadius: '9px', border: '1px solid #000' }}>Contact Us</Link>
                                 </li>
@@ -64,13 +64,16 @@ function MobilitySol() {
             <div className="container py-5">
                 <h2 className="fw-bold mb-4 display-4">What we offer?</h2>
                 <p className="lead mb-5">
-                We offer a range of educational programs and resources specifically designed to help native communities harness the potential of emerging technologies. Whether you're interested in AI, blockchain, or something else, we have something for you.
+                At Sarabloh Technologies, we are committed to empowering communities through a diverse range of innovative solutions. Our offerings are designed to meet the unique needs of native communities and beyond, leveraging the latest in technology to create meaningful change.
                 </p>
                 <div className="row my-3">
                     <div className="col-md-8 d-flex flex-column justify-content-center">
-                        <h3 className="fw-bold">Education</h3>
-                        <p>Empowering Minds for the Future
-                            Transform your career with our cutting-edge courses in technology, digital finance, and decentralized ecosystems. Learn from industry experts and become a leader in the rapidly evolving digital world.
+                        <h3 className="fw-bold">Educational Program</h3>
+                        <p className="text-justify">
+                        Unlock the potential of decentralized technologies with our advanced DAO course, featuring AI prompt engineering to enhance your learning experience. Our course includes:
+                        <br/>At Sarabloh Technologies, we’re redefining the future of DAO education with cutting-edge AI prompt engineering. Our course in DAO fundamentals with specialization in Finance, Marketing and more, are infused with AI-driven insights that elevate your learning experience. Imagine mastering financial strategies, crafting personalized marketing campaigns, and generating impactful content, all enhanced by the precision of AI. We’re here to ensure you stay ahead of the curve and lead with innovation in the dynamic world of DAOs.
+                        <br/>DAO courses, AI prompt engineering
+
                         </p>
                     </div>
                     <div className="col-md-4 d-flex justify-content-center align-items-center">
@@ -80,10 +83,14 @@ function MobilitySol() {
                 <hr className='hide-on-mobile' />
                 <div className="row my-3">
                     <div className="col-md-8 d-flex flex-column justify-content-center">
-                        <h3 className="fw-bold">⁠AI and Blockchain
+                        <h3 className="fw-bold">AI and Blockchain
+
                         </h3>
-                        <p>Innovating with Intelligence
-                            Leverage the potential of artificial intelligence and blockchain to drive your business forward. Our solutions help you harness data, enhance security, and create efficient, scalable systems.
+                        <p className="text-justify">Innovating with Intelligence
+                        Leverage the power of artificial intelligence and blockchain to drive your business forward. Our AI and blockchain solutions include:
+                        <br/>• <b>AI Solutions:</b> Harness data effectively to enhance decision-making, streamline operations, and develop intelligent systems that adapt to your needs.
+                        <br/>• <b>Blockchain Integration:</b> Secure your digital transactions and build scalable, decentralized systems with our blockchain expertise. We help you implement solutions that improve transparency, security, and efficiency.
+
                         </p>
                     </div>
                     <div className="col-md-4 d-flex justify-content-center align-items-center">
@@ -91,11 +98,13 @@ function MobilitySol() {
                     </div>
                 </div>
                 <hr className='hide-on-mobile' />
-                <div className="row my-3">
+                <div className="row my-3 ">
                     <div className="col-md-8 d-flex flex-column justify-content-center">
                         <h3 className="fw-bold">⁠Mobility Solutions</h3>
-                        <p>Reimagining Urban Mobility
-                            Experience seamless travel with our reliable and affordable cab services. We are redefining urban transport to make your daily commutes smoother, safer, and smarter.</p>
+                        <p className="text-justify">
+                        <br/><b>On Demand Hybrid Public PrivateTransport Services:</b> Enjoy reliable, safe, and affordable transportation with our comprehensive transit service platform. Flexible and affordable transit solution. Features include real-time tracking, and enhanced safety measures.
+                        <br/><b>User-Centric Features:</b> Benefit from multiple stop options, waiting time charges, and customizable subsidies to fit your needs. Our service is designed to make your daily commutes more efficient and enjoyable.</p>
+
                     </div>
                     <div className="col-md-4 d-flex justify-content-center align-items-center">
                         <img src="/TestImages/8.png" alt="Drone Delivery" className="img-fluid rounded" style={{ height: '25vh', objectFit: 'cover', width: '100%', borderRadius: '12px' }} />
@@ -105,19 +114,20 @@ function MobilitySol() {
             </div>
 
             <div className="container py-3">
-                <h3 className="fw-bold mb-4 display-4">Our Vision for the Future</h3>
+                <h3 className="fw-bold mb-4 display-4">Supporting You Every Step of the Way</h3>
                 <p className="">
-                    At Deep Tech Inc., we believe that everyone deserves access to safe, efficient transportation, no matter where they live. That's why we're committed to developing innovative mobility solutions that empower people to move more freely and sustainably, while reducing traffic congestion and carbon emissions in low-density areas.
+                <b>Expert Guidance:</b> Our team of experts is here to assist you with any questions or challenges you may encounter, providing personalized support and advice.
+<br/><b>Comprehensive Resources:</b> Access a range of resources, including tutorials, guides, and FAQs, to help you navigate our services and maximize their benefits.
                 </p>
-                <hr className='mt-5' />
+                {/* <hr className='mt-5' /> */}
             </div>
 
             <div className="container py-1 mb-5">
-                <h3 className="fw-bold mb-4 ">Get in Touch</h3>
+                <h3 className="fw-bold  ">Connect with us</h3>
                 <p className="">
-                    Ready to learn more about our mobility solutions? Contact us today to schedule a consultation with one of our experts.
+                Contact us today to schedule a consultation with our experts. We’re here to provide the insights and support you need to succeed.
                 </p>
-                <Link to="/apply" className="btn btn-primary text-white" style={{ height: '50px', width: '140px', fontSize: '0.9rem', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', borderRadius: '9px' }}>
+                <Link to="/contact" className="btn btn-primary text-white" style={{ height: '50px', width: '140px', fontSize: '0.9rem', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', borderRadius: '9px' }}>
                     Apply Now
                 </Link>
             </div>

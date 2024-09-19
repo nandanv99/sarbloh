@@ -32,12 +32,12 @@ function Home() {
                                 <li className="nav-item mx-2 p-2">
                                     <Link className="nav-link text-white" to="/mobility">Solutions</Link>
                                 </li>
-                                <li className="nav-item mx-2 p-2">
+                                {/* <li className="nav-item mx-2 p-2">
                                     <Link className="nav-link text-white" to="#">Partner</Link>
                                 </li>
                                 <li className="nav-item mx-2 p-2">
                                     <Link className="nav-link text-white" to="#">Career</Link>
-                                </li>
+                                </li> */}
                                 <li className="nav-item mx-2 p-2">
                                     <Link className="btn btn-light text-dark" to="/contact" style={{ borderRadius: '9px', border: '1px solid #000' }}>Contact Us</Link>
                                 </li>
@@ -46,19 +46,16 @@ function Home() {
                     </div>
                 </nav>
                 <div className="position-absolute top-50 start-0 translate-middle-y text-white ps-3 ps-md-5" style={{ maxWidth: '90%' }}>
-                    <h1 className="display-2 display-md-2  fw-bold mb-3 mb-md-4">Empowering Your Communities with tailored educational solutions</h1>
+                    <h1 className="display-2 display-md-2  fw-bold mb-3 mb-md-4">Connecting Communities, Creating Opportunities</h1>
                     <p className="lead fs-6 fs-md-5">
-                        We are a deep tech company focused on community empowerment and mobility solutions.
-                        Our mission is to connect people to the services they need, while creating opportunities
-                        for economic growth and social development. We are rooted in the Canadian Prairies, with
-                        a focus on empowering indigenous communities and those in need.
+                    At Sarabloh Technologies, we are more than just a deep tech company — we are a force for change. Driven by our mission to empower communities, we provide tailored educational solutions and innovative mobility services that foster growth and development. Rooted in the Canadian Prairies, we are committed to uplifting indigenous communities and those in need, connecting people to the resources that fuel economic opportunity and social progress. Join us in building a brighter, more inclusive future for all.
                     </p>
                     <div className="mt-3 mt-md-4 d-flex align-items-center">
-                        <Link to="/about" className="btn btn-outline-light me-2 me-md-3" style={{ borderWidth: '2px', height: '50px', width: '140px', fontSize: '0.9rem', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', borderRadius: '9px' }}>
-                            Learn More
+                        <Link to="/contact" className="btn btn-outline-light me-2 me-md-3" style={{ borderWidth: '2px', height: '50px', width: '140px', fontSize: '0.9rem', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', borderRadius: '9px' }}>
+                        Get Started
                         </Link>
-                        <Link to="/contact" className="btn btn-primary text-white" style={{ height: '50px', width: '140px', fontSize: '0.9rem', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', borderRadius: '9px' }}>
-                            Apply Now
+                        <Link to="/mobility" className="btn btn-primary text-white" style={{ height: '50px', width: '170px', fontSize: '0.9rem', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', borderRadius: '9px' }}>
+                        Explore Our services
                         </Link>
                     </div>
                 </div>
@@ -74,12 +71,12 @@ function Home() {
                     </div>
                 </div>
                 <div className="row mt-3">
-                    {['AI and Blockchain', 'Mobility Solutions', 'Education'].map((topic, index) => {
+                    {[ 'Education','AI and Blockchain', 'Mobility Solutions'].map((topic, index) => {
                         const images = ['/TestImages/1.png', '/TestImages/2.png', '/TestImages/5.png'];
                         const descriptions = [
-                            "Innovating with Intelligence Leverage the potential of artificial intelligence and blockchain to drive your business forward. Our solutions help you harness data, enhance security, and create efficient, scalable systems.",
-                            "Reimagining Urban Mobility Experience seamless travel with our reliable and affordable cab services. We are redefining urban transport to make your daily commutes smoother, safer, and smarter.",
-                            "Empowering Minds for the Future Transform your career with our cutting-edge courses in technology, digital finance, and decentralized ecosystems. Learn from industry experts and become a leader in the rapidly evolving digital world.."
+                            "Step into the world of decentralized innovation with our cutting-edge courses. From mastering the fundamentals of DAOs to specialized training in finance, marketing, and social media, our education programs are designed to equip you with the skills and knowledge to become a leader in the digital economy.",
+                            "Transform your business with the power of artificial intelligence and blockchain technology. Our solutions help you unlock the value of your data, enhance security, and build systems that are both scalable and efficient. Step into the future with confidence and let innovation drive your success.",
+                            "Experience a smarter, safer, and more inclusive way to travel with our advanced mobility solutions. Our app provides a comprehensive suite of features, including real-time analytics, flexible pricing models, and advanced safety features. Whether you’re a user, driver, or administrator, our platform ensures seamless and efficient transportation, catering to your unique needs."
                         ];
                         return (
                             <div key={index} className="col-12 col-sm-6 col-md-4 mb-4">

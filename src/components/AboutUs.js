@@ -33,12 +33,12 @@ const AboutUs = () => {
                                 <li className="nav-item mx-2 p-2">
                                     <Link className="nav-link text-white" to="/mobility">Solutions</Link>
                                 </li>
-                                <li className="nav-item mx-2 p-2">
+                                {/* <li className="nav-item mx-2 p-2">
                                     <Link className="nav-link text-white" to="#">Partner</Link>
                                 </li>
                                 <li className="nav-item mx-2 p-2">
                                     <Link className="nav-link text-white" to="#">Career</Link>
-                                </li>
+                                </li> */}
                                 <li className="nav-item mx-2 p-2">
                                     <Link className="btn btn-light text-dark" to="/contact" style={{ borderRadius: '9px', border: '1px solid #000' }}>Contact Us</Link>
                                 </li>
@@ -56,42 +56,42 @@ const AboutUs = () => {
                         <div className="col mb-3">
                             <div className="card p-3  h-100" style={{ borderRadius: '8px', border: '1px solid #D1DBE8', background: '#F7FAFC' }}>
                                 <i className="fas fa-history fa-2x mb-3" style={{ color: "black" }}></i>
-                                <h5 className="font-weight-bold" style={{ color: "black" }}>History</h5>
+                                <h5 className="font-weight-bold" style={{ color: "black" }}>Innovation</h5>
                                 <p className="" style={{ color: "#4F7396" }}>How we got here</p>
                             </div>
                         </div>
                         <div className="col mb-3">
                             <div className="card p-3  h-100" style={{ borderRadius: '8px', border: '1px solid #D1DBE8', background: '#F7FAFC' }}>
                                 <i className="fas fa-lightbulb fa-2x mb-3" style={{ color: "black" }}></i>
-                                <h5 className="font-weight-bold" style={{ color: "black" }}>Mission</h5>
+                                <h5 className="font-weight-bold" style={{ color: "black" }}>Integrity</h5>
                                 <p className="" style={{ color: "#4F7396" }}>Our purpose</p>
                             </div>
                         </div>
                         <div className="col mb-3">
                             <div className="card p-3  h-100" style={{ borderRadius: '8px', border: '1px solid #D1DBE8', background: '#F7FAFC' }}>
                                 <i className="fas fa-users fa-2x mb-3" style={{ color: "black" }}></i>
-                                <h5 className="font-weight-bold" style={{ color: "black" }}>Values</h5>
+                                <h5 className="font-weight-bold" style={{ color: "black" }}>Empowerment</h5>
                                 <p className="" style={{ color: "#4F7396" }}>What we believe</p>
                             </div>
                         </div>
                         <div className="col mb-3">
                             <div className="card p-3  h-100" style={{ borderRadius: '8px', border: '1px solid #D1DBE8', background: '#F7FAFC' }}>
                                 <i className="fas fa-user-tie fa-2x mb-3" style={{ color: "black" }}></i>
-                                <h5 className="font-weight-bold" style={{ color: "black" }}>Leadership</h5>
+                                <h5 className="font-weight-bold" style={{ color: "black" }}>Excellence</h5>
                                 <p className="" style={{ color: "#4F7396" }}>Who leads the way</p>
                             </div>
                         </div>
                         <div className="col mb-3">
                             <div className="card p-3  h-100" style={{ borderRadius: '8px', border: '1px solid #D1DBE8', background: '#F7FAFC' }}>
                                 <i className="fas fa-chalkboard-teacher fa-2x mb-3" style={{ color: "black" }}></i>
-                                <h5 className="font-weight-bold" style={{ color: "black" }}>Advisors</h5>
+                                <h5 className="font-weight-bold" style={{ color: "black" }}>Success</h5>
                                 <p className="" style={{ color: "#4F7396" }}>Guidance from experts</p>
                             </div>
                         </div>
                         <div className="col mb-3">
                             <div className="card p-3  h-100" style={{ borderRadius: '8px', border: '1px solid #D1DBE8', background: '#F7FAFC' }}>
                                 <i className="fas fa-briefcase fa-2x mb-3" style={{ color: "black" }}></i>
-                                <h5 className="font-weight-bold" style={{ color: "black" }}>Careers</h5>
+                                <h5 className="font-weight-bold" style={{ color: "black" }}>Sustainability</h5>
                                 <p className="" style={{ color: "#4F7396" }}>Join our team</p>
                             </div>
                         </div>
@@ -100,13 +100,9 @@ const AboutUs = () => {
                 <hr className='my-5' />
             </div>
             <div className='container mt-4'>
-                <h3 className=' display-7 fw-bold'>History</h3>
+                <h3 className=' display-7 fw-bold'>Discover How We’re Shaping the Future</h3>
                 <p className='text-justify'>
-                    Welcome to Sarabloh Technologies – a dynamic and innovative company redefining the future through cutting-edge solutions in education, AI, blockchain, and mobility. Based in Canada, we are committed to bridging gaps, driving innovation, and making technology accessible for everyone.
-
-                    <br /> Our journey began with a simple idea: to empower individuals and businesses through transformative technology. Today, Sarabloh Technologies stands at the intersection of multiple industries, providing a unique blend of services that cater to diverse needs. Whether it’s equipping learners with the skills of tomorrow, enabling businesses to leverage AI and blockchain, or revolutionizing urban mobility with our efficient cab services, we are here to drive meaningful change.
-
-                    <br /> At Sarabloh Technologies, we believe in the power of ideas and the potential of technology to change the world. Our diverse team of experts brings together deep experience and a passion for innovation, creating solutions that are both impactful and sustainable. Join us on our mission to shape a smarter, more connected future for all.
+                    At Sarabloh Technologies, we’re not just transforming the world of technology — we’re empowering businesses and communities around the globe. Our dedicated team is at the heart of everything we do, driving innovation and delivering solutions that make a difference. Get to know the people behind our success and learn how we’re making an impact.
 
                 </p>
                 <hr className='my-5' />
@@ -115,7 +111,8 @@ const AboutUs = () => {
             <div className='container mt-4'>
                 <h3 className=' display-7 fw-bold'>Our Mission</h3>
                 <p className='text-justify'>
-                    Our mission is to harness the power of technology to create smarter, more inclusive communities. We strive to educate, innovate, and simplify, offering our clients and partners unparalleled services that enhance growth, efficiency, and mobility.
+                    <b>Empowering Communities, One Innovation at a Time</b><br />We are committed to enhancing lives and businesses through cutting-edge technology. From tailored educational programs and advanced AI solutions to smart mobility services, our mission is to create opportunities and drive progress, one step at a time.
+
                 </p>
                 <hr className='my-5' />
             </div>
@@ -123,16 +120,17 @@ const AboutUs = () => {
             <div className='container mt-4'>
                 <h3 className=' display-7 fw-bold'>Our Values</h3>
                 <p className='text-justify'>
-                    • Innovation: We constantly challenge the status quo and push boundaries to develop creative solutions that add value to our customers and society. <br />
-                    • Integrity: Honesty, transparency, and ethical practices are at the core of everything we do. We build trust by staying true to our commitments. <br />
-                    • Excellence: We aim for the highest standards in every aspect of our business, from customer service to solution delivery. <br />
-                    • Empowerment: We believe in empowering individuals through education and technology, creating opportunities for growth and success. <br />
-                    • Sustainability: We are committed to building solutions that are not just innovative but also sustainable, contributing positively to the communities we serve. <br />
+                    <b>Innovate with Purpose </b>: We are driven by a desire to create meaningful change and solve real-world problems with our technology.<br/>
+                    <b>Empower and Include</b>: We believe in the power of inclusivity and strive to uplift every community we serve.<br/>
+                    <b>Collaborate for Success</b>: Success is a team effort. We work together, share ideas, and support one another to achieve our common goals.<br/>
+                    <b>Act with Integrity</b>: We uphold the highest standards of honesty and transparency in all our dealings.<br/>
+                    <b>Commit to Excellence</b>: We take ownership of our work and are dedicated to delivering exceptional results.
+
                 </p>
                 <hr className='my-5' />
             </div>
 
-            <div className='container mt-4'>
+            {/* <div className='container mt-4'>
                 <h3 className=' display-7 fw-bold'>Our Team</h3>
                 <div className="mt-5">
                     <div className="">
@@ -182,12 +180,12 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className='container mt-4'>
-                <h3 className=' display-7 fw-bold'>Our Team</h3>
+                <h3 className=' display-7 fw-bold'>Meet the Team</h3>
                 <p className='text-justify'>
-                    At Sarabloh Technologies, our leadership team is a blend of visionaries, industry experts, and technology enthusiasts who are passionate about driving growth and innovation. Led by <strong>Jaskanwar Singh</strong> & <strong>Santokh Singh</strong>, our team is dedicated to realizing our mission of creating a smarter, more connected future.
+                Our team is a diverse group of passionate professionals dedicated to pushing the boundaries of what’s possible. Together, we combine our expertise and creativity to drive innovation and make a positive impact on the world. Get to know the individuals who are making our mission a reality and learn more about how we’re shaping the future of technology.
 
                 </p>
                 <div className="row">
@@ -206,7 +204,12 @@ const AboutUs = () => {
                                             fontWeight: 700,
                                             lineHeight: '150%'
                                         }}>Jaskanwar Singh</h5>
-                                        <p className=" text-black">Co-founder<br /> Canada</p>
+                                        {/* <p className=" text-black">Co-founder<br /> Canada</p> */}
+                                        <Link to="https://www.linkedin.com/in/jaskanwar-singh-367007150" className="">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                            </svg>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -222,7 +225,12 @@ const AboutUs = () => {
                                             fontWeight: 700,
                                             lineHeight: '150%'
                                         }}>Santokh Singh</h5>
-                                        <p className=" text-black">Co-founder <br /> Canada</p>
+                                        {/* <p className=" text-black">Co-founder <br /> Canada</p> */}
+                                        <Link to="https://www.linkedin.com/in/santokh-singh-randhawa-p-eng-022abb35/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                            </svg>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
