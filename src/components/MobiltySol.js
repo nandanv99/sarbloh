@@ -63,16 +63,18 @@ function MobilitySol() {
 
             <div className="container py-5">
                 <h2 className="fw-bold mb-4 display-4">What we offer?</h2>
-                <p className="lead mb-5">
-                At Sarabloh Technologies, we are committed to empowering communities through a diverse range of innovative solutions. Our offerings are designed to meet the unique needs of native communities and beyond, leveraging the latest in technology to create meaningful change.
+                <p className="lead mb-5 text-justify">
+                    At Sarabloh Technologies, we are committed to empowering communities through a diverse range of innovative solutions. Our offerings are designed to meet the unique needs of native communities and beyond, leveraging the latest in technology to create meaningful change.
                 </p>
                 <div className="row my-3">
                     <div className="col-md-8 d-flex flex-column justify-content-center">
                         <h3 className="fw-bold">Educational Program</h3>
                         <p className="text-justify">
-                        Unlock the potential of decentralized technologies with our advanced DAO course, featuring AI prompt engineering to enhance your learning experience. Our course includes:
-                        <br/>At Sarabloh Technologies, we’re redefining the future of DAO education with cutting-edge AI prompt engineering. Our course in DAO fundamentals with specialization in Finance, Marketing and more, are infused with AI-driven insights that elevate your learning experience. Imagine mastering financial strategies, crafting personalized marketing campaigns, and generating impactful content, all enhanced by the precision of AI. We’re here to ensure you stay ahead of the curve and lead with innovation in the dynamic world of DAOs.
-                        <br/>DAO courses, AI prompt engineering
+                        Leverage the power of decentralized technologies and artificial intelligence to elevate your understanding of DAOs. Our advanced DAO course offers: <br/>
+
+<br/><b>DAO Fundamentals:</b> Gain a solid foundation in decentralized autonomous organizations, focusing on essential principles and practices.<br/>
+<br/><b>Specialization Tracks:</b> Dive deeper into areas like Finance and Marketing, where you'll master strategies that drive success in the DAO ecosystem.<br/>
+<br/><b>AI-Driven Insights:</b> Enhance your learning experience with cutting-edge AI prompt engineering, enabling you to craft personalized marketing campaigns, develop financial strategies, and generate impactful content.
 
                         </p>
                     </div>
@@ -87,9 +89,9 @@ function MobilitySol() {
 
                         </h3>
                         <p className="text-justify">Innovating with Intelligence
-                        Leverage the power of artificial intelligence and blockchain to drive your business forward. Our AI and blockchain solutions include:
-                        <br/>• <b>AI Solutions:</b> Harness data effectively to enhance decision-making, streamline operations, and develop intelligent systems that adapt to your needs.
-                        <br/>• <b>Blockchain Integration:</b> Secure your digital transactions and build scalable, decentralized systems with our blockchain expertise. We help you implement solutions that improve transparency, security, and efficiency.
+                            Leverage the power of artificial intelligence and blockchain to drive your business forward. Our AI and blockchain solutions include: <br/>
+                            <br /><b>AI Solutions:</b> Harness data effectively to enhance decision-making, streamline operations, and develop intelligent systems that adapt to your needs.<br/>
+                            <br /><b>Blockchain Integration:</b> Secure your digital transactions and build scalable, decentralized systems with our blockchain expertise. We help you implement solutions that improve transparency, security, and efficiency.
 
                         </p>
                     </div>
@@ -102,9 +104,12 @@ function MobilitySol() {
                     <div className="col-md-8 d-flex flex-column justify-content-center">
                         <h3 className="fw-bold">⁠Mobility Solutions</h3>
                         <p className="text-justify">
-                        <br/><b>On Demand Hybrid Public PrivateTransport Services:</b> Enjoy reliable, safe, and affordable transportation with our comprehensive transit service platform. Flexible and affordable transit solution. Features include real-time tracking, and enhanced safety measures.
-                        <br/><b>User-Centric Features:</b> Benefit from multiple stop options, waiting time charges, and customizable subsidies to fit your needs. Our service is designed to make your daily commutes more efficient and enjoyable.</p>
+                        Harness cutting-edge transport technologies to elevate your commuting experience.
+                        for mobility solution<br/>
+                            <br /><b>On Demand Hybrid Public PrivateTransport Services:</b> Enjoy reliable, safe, and affordable transportation with our comprehensive transit service platform. Flexible and affordable transit solution. Features include real-time tracking, and enhanced safety measures.<br/>
+                            <br /><b>User-Centric Features:</b> Benefit from multiple stop options, waiting time charges, and customizable subsidies to fit your needs. Our service is designed to make your daily commutes more efficient and enjoyable.
 
+                        </p>
                     </div>
                     <div className="col-md-4 d-flex justify-content-center align-items-center">
                         <img src="/TestImages/8.png" alt="Drone Delivery" className="img-fluid rounded" style={{ height: '25vh', objectFit: 'cover', width: '100%', borderRadius: '12px' }} />
@@ -114,21 +119,21 @@ function MobilitySol() {
             </div>
 
             <div className="container py-3">
-                <h3 className="fw-bold mb-4 display-4">Supporting You Every Step of the Way</h3>
-                <p className="">
-                <b>Expert Guidance:</b> Our team of experts is here to assist you with any questions or challenges you may encounter, providing personalized support and advice.
-<br/><b>Comprehensive Resources:</b> Access a range of resources, including tutorials, guides, and FAQs, to help you navigate our services and maximize their benefits.
+                <h3 className="fw-bold mb-4 display-4 text-justify">Supporting You Every Step of the Way</h3>
+                <p className="text-justify">
+                    <b>Expert Guidance:</b> Our team of experts is here to assist you with any questions or challenges you may encounter, providing personalized support and advice. <br/>
+                    <br /><b>Comprehensive Resources:</b> Access a range of resources, including tutorials, guides, and FAQs, to help you navigate our services and maximize their benefits.
                 </p>
                 {/* <hr className='mt-5' /> */}
             </div>
 
             <div className="container py-1 mb-5">
-                <h3 className="fw-bold  ">Connect with us</h3>
-                <p className="">
-                Contact us today to schedule a consultation with our experts. We’re here to provide the insights and support you need to succeed.
+                <h3 className="fw-bold text-justify">Connect with us</h3>
+                <p className="text-justify">
+                    Contact us today to schedule a consultation with our experts. We’re here to provide the insights and support you need to succeed.
                 </p>
                 <Link to="/contact" className="btn btn-primary text-white" style={{ height: '50px', width: '140px', fontSize: '0.9rem', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', borderRadius: '9px' }}>
-                    Apply Now
+                    Contact us
                 </Link>
             </div>
             <hr />
@@ -142,7 +147,7 @@ function MobilitySol() {
                                 <path d="M60.602 30.465C58.9487 30.465 57.4555 30.1757 56.1225 29.597C54.7998 29.008 53.7097 28.171 52.852 27.086C52.0047 25.9907 51.4673 24.6887 51.24 23.18L55.642 22.529C55.952 23.8103 56.5927 24.7972 57.564 25.4895C58.5353 26.1818 59.641 26.528 60.881 26.528C61.5733 26.528 62.245 26.4195 62.896 26.2025C63.547 25.9855 64.0792 25.6652 64.4925 25.2415C64.9162 24.8178 65.128 24.296 65.128 23.676C65.128 23.4487 65.0918 23.2317 65.0195 23.025C64.9575 22.808 64.849 22.6065 64.694 22.4205C64.539 22.2345 64.3168 22.0588 64.0275 21.8935C63.7485 21.7282 63.392 21.5783 62.958 21.444L57.161 19.739C56.727 19.615 56.2207 19.4393 55.642 19.212C55.0737 18.9847 54.5208 18.6592 53.9835 18.2355C53.4462 17.8118 52.9967 17.2538 52.635 16.5615C52.2837 15.8588 52.108 14.9753 52.108 13.911C52.108 12.4127 52.4852 11.1675 53.2395 10.1755C53.9938 9.1835 55.0013 8.44467 56.262 7.959C57.5227 7.47333 58.9177 7.23567 60.447 7.246C61.9867 7.26667 63.361 7.53017 64.57 8.0365C65.779 8.54283 66.7917 9.28167 67.608 10.253C68.4243 11.214 69.0133 12.392 69.375 13.787L64.818 14.562C64.6527 13.8387 64.3478 13.229 63.9035 12.733C63.4592 12.237 62.927 11.8598 62.307 11.6015C61.6973 11.3432 61.0567 11.2037 60.385 11.183C59.7237 11.1623 59.0985 11.2553 58.5095 11.462C57.9308 11.6583 57.4555 11.9477 57.0835 12.33C56.7218 12.7123 56.541 13.167 56.541 13.694C56.541 14.1797 56.6908 14.5775 56.9905 14.8875C57.2902 15.1872 57.6673 15.43 58.122 15.616C58.5767 15.802 59.0417 15.957 59.517 16.081L63.392 17.135C63.9707 17.29 64.6113 17.4967 65.314 17.755C66.0167 18.003 66.6883 18.3543 67.329 18.809C67.98 19.2533 68.5122 19.8423 68.9255 20.576C69.3492 21.3097 69.561 22.2397 69.561 23.366C69.561 24.5647 69.3078 25.6135 68.8015 26.5125C68.3055 27.4012 67.6338 28.14 66.7865 28.729C65.9392 29.3077 64.9782 29.7417 63.9035 30.031C62.8392 30.3203 61.7387 30.465 60.602 30.465ZM75.6179 30.465C74.4192 30.465 73.4014 30.2377 72.5644 29.783C71.7377 29.318 71.1074 28.7032 70.6734 27.9385C70.2497 27.1635 70.0379 26.311 70.0379 25.381C70.0379 24.606 70.1567 23.8982 70.3944 23.2575C70.632 22.6168 71.0144 22.0537 71.5414 21.568C72.0787 21.072 72.7969 20.6587 73.6959 20.328C74.3159 20.1007 75.0547 19.8992 75.9124 19.7235C76.77 19.5478 77.7414 19.3825 78.8264 19.2275C79.9114 19.0622 81.1049 18.8813 82.4069 18.685L80.8879 19.522C80.8879 18.53 80.6502 17.8015 80.1749 17.3365C79.6995 16.8715 78.9039 16.639 77.7879 16.639C77.1679 16.639 76.522 16.7888 75.8504 17.0885C75.1787 17.3882 74.7085 17.9203 74.4399 18.685L70.6269 17.476C71.0505 16.0913 71.8462 14.965 73.0139 14.097C74.1815 13.229 75.7729 12.795 77.7879 12.795C79.2655 12.795 80.5779 13.0223 81.7249 13.477C82.8719 13.9317 83.7399 14.717 84.3289 15.833C84.6595 16.453 84.8559 17.073 84.9179 17.693C84.9799 18.313 85.0109 19.0053 85.0109 19.77V30H81.3219V26.559L81.8489 27.272C81.0325 28.3983 80.149 29.2147 79.1984 29.721C78.258 30.217 77.0645 30.465 75.6179 30.465ZM76.5169 27.148C77.2919 27.148 77.9429 27.0137 78.4699 26.745C79.0072 26.466 79.4309 26.1508 79.7409 25.7995C80.0612 25.4482 80.2782 25.1537 80.3919 24.916C80.6089 24.4613 80.7329 23.9343 80.7639 23.335C80.8052 22.7253 80.8259 22.219 80.8259 21.816L82.0659 22.126C80.8155 22.3327 79.8029 22.5083 79.0279 22.653C78.2529 22.7873 77.6277 22.9113 77.1524 23.025C76.677 23.1387 76.2585 23.2627 75.8969 23.397C75.4835 23.5623 75.1477 23.7432 74.8894 23.9395C74.6414 24.1255 74.4554 24.3322 74.3314 24.5595C74.2177 24.7868 74.1609 25.04 74.1609 25.319C74.1609 25.7013 74.2539 26.032 74.4399 26.311C74.6362 26.5797 74.91 26.7863 75.2614 26.931C75.6127 27.0757 76.0312 27.148 76.5169 27.148ZM87.0411 30V13.26H90.7611V17.352L90.3581 16.825C90.5751 16.2463 90.8644 15.7193 91.2261 15.244C91.5878 14.7687 92.0321 14.376 92.5591 14.066C92.9621 13.818 93.4013 13.6268 93.8766 13.4925C94.3519 13.3478 94.8428 13.26 95.3491 13.229C95.8554 13.1877 96.3618 13.198 96.8681 13.26V17.197C96.4031 17.0523 95.8606 17.0058 95.2406 17.0575C94.6309 17.0988 94.0781 17.2383 93.5821 17.476C93.0861 17.7033 92.6676 18.0082 92.3266 18.3905C91.9856 18.7625 91.7273 19.2068 91.5516 19.7235C91.3759 20.2298 91.2881 20.8033 91.2881 21.444V30H87.0411ZM102.133 30.465C100.935 30.465 99.917 30.2377 99.08 29.783C98.2533 29.318 97.623 28.7032 97.189 27.9385C96.7653 27.1635 96.5535 26.311 96.5535 25.381C96.5535 24.606 96.6723 23.8982 96.91 23.2575C97.1476 22.6168 97.53 22.0537 98.057 21.568C98.5943 21.072 99.3125 20.6587 100.211 20.328C100.831 20.1007 101.57 19.8992 102.428 19.7235C103.286 19.5478 104.257 19.3825 105.342 19.2275C106.427 19.0622 107.62 18.8813 108.922 18.685L107.403 19.522C107.403 18.53 107.166 17.8015 106.69 17.3365C106.215 16.8715 105.419 16.639 104.303 16.639C103.683 16.639 103.038 16.7888 102.366 17.0885C101.694 17.3882 101.224 17.9203 100.955 18.685L97.1425 17.476C97.5661 16.0913 98.3618 14.965 99.5295 14.097C100.697 13.229 102.288 12.795 104.303 12.795C105.781 12.795 107.093 13.0223 108.24 13.477C109.387 13.9317 110.255 14.717 110.844 15.833C111.175 16.453 111.371 17.073 111.433 17.693C111.495 18.313 111.526 19.0053 111.526 19.77V30H107.837V26.559L108.364 27.272C107.548 28.3983 106.665 29.2147 105.714 29.721C104.774 30.217 103.58 30.465 102.133 30.465ZM103.032 27.148C103.807 27.148 104.458 27.0137 104.985 26.745C105.523 26.466 105.946 26.1508 106.256 25.7995C106.577 25.4482 106.794 25.1537 106.907 24.916C107.124 24.4613 107.248 23.9343 107.279 23.335C107.321 22.7253 107.341 22.219 107.341 21.816L108.581 22.126C107.331 22.3327 106.318 22.5083 105.543 22.653C104.768 22.7873 104.143 22.9113 103.668 23.025C103.193 23.1387 102.774 23.2627 102.412 23.397C101.999 23.5623 101.663 23.7432 101.405 23.9395C101.157 24.1255 100.971 24.3322 100.847 24.5595C100.733 24.7868 100.676 25.04 100.676 25.319C100.676 25.7013 100.769 26.032 100.955 26.311C101.152 26.5797 101.426 26.7863 101.777 26.931C102.128 27.0757 102.547 27.148 103.032 27.148ZM121.772 30.465C120.108 30.465 118.718 30.0775 117.602 29.3025C116.486 28.5275 115.644 27.4735 115.076 26.1405C114.518 24.8075 114.239 23.304 114.239 21.63C114.239 19.956 114.518 18.4525 115.076 17.1195C115.634 15.7865 116.455 14.7325 117.54 13.9575C118.625 13.1825 119.963 12.795 121.555 12.795C123.156 12.795 124.551 13.1773 125.74 13.942C126.928 14.7067 127.848 15.7555 128.499 17.0885C129.16 18.4112 129.491 19.925 129.491 21.63C129.491 23.304 129.165 24.8075 128.514 26.1405C127.874 27.4735 126.975 28.5275 125.817 29.3025C124.66 30.0775 123.311 30.465 121.772 30.465ZM113.526 30V7.68H117.773V18.53H117.246V30H113.526ZM121.09 26.714C121.999 26.714 122.743 26.4867 123.322 26.032C123.9 25.5773 124.329 24.9677 124.608 24.203C124.887 23.428 125.027 22.5703 125.027 21.63C125.027 20.7 124.882 19.8527 124.593 19.088C124.303 18.313 123.854 17.6982 123.244 17.2435C122.645 16.7785 121.875 16.546 120.935 16.546C120.056 16.546 119.343 16.7578 118.796 17.1815C118.258 17.6052 117.866 18.1993 117.618 18.964C117.37 19.7287 117.246 20.6173 117.246 21.63C117.246 22.6427 117.37 23.5313 117.618 24.296C117.866 25.0607 118.269 25.6548 118.827 26.0785C119.395 26.5022 120.149 26.714 121.09 26.714ZM131.211 30V7.215H135.427V30H131.211ZM145.607 30.465C143.923 30.465 142.445 30.0878 141.174 29.3335C139.903 28.5792 138.911 27.5407 138.198 26.218C137.496 24.885 137.144 23.3557 137.144 21.63C137.144 19.8837 137.506 18.3492 138.229 17.0265C138.953 15.6935 139.95 14.655 141.221 13.911C142.492 13.167 143.954 12.795 145.607 12.795C147.292 12.795 148.769 13.1722 150.04 13.9265C151.322 14.6808 152.319 15.7245 153.032 17.0575C153.745 18.3802 154.101 19.9043 154.101 21.63C154.101 23.366 153.74 24.9005 153.016 26.2335C152.303 27.5562 151.306 28.5947 150.025 29.349C148.754 30.093 147.281 30.465 145.607 30.465ZM145.607 26.528C146.961 26.528 147.968 26.0733 148.63 25.164C149.301 24.2443 149.637 23.0663 149.637 21.63C149.637 20.142 149.296 18.9537 148.614 18.065C147.943 17.1763 146.94 16.732 145.607 16.732C144.688 16.732 143.933 16.9387 143.344 17.352C142.755 17.7653 142.316 18.3388 142.027 19.0725C141.748 19.8062 141.608 20.6587 141.608 21.63C141.608 23.1283 141.944 24.3218 142.616 25.2105C143.298 26.0888 144.295 26.528 145.607 26.528ZM166.918 30V22.095C166.918 21.7127 166.897 21.227 166.856 20.638C166.815 20.0387 166.685 19.4393 166.468 18.84C166.251 18.2407 165.895 17.7395 165.399 17.3365C164.913 16.9335 164.221 16.732 163.322 16.732C162.96 16.732 162.573 16.7888 162.159 16.9025C161.746 17.0162 161.359 17.2383 160.997 17.569C160.635 17.8893 160.336 18.3647 160.098 18.995C159.871 19.6253 159.757 20.4623 159.757 21.506L157.339 20.359C157.339 19.0363 157.608 17.7963 158.145 16.639C158.682 15.4817 159.488 14.5465 160.563 13.8335C161.648 13.1205 163.012 12.764 164.655 12.764C165.967 12.764 167.037 12.9862 167.863 13.4305C168.69 13.8748 169.331 14.438 169.785 15.12C170.25 15.802 170.581 16.515 170.777 17.259C170.974 17.9927 171.093 18.6643 171.134 19.274C171.175 19.8837 171.196 20.328 171.196 20.607V30H166.918ZM155.479 30V7.68H159.23V19.15H159.757V30H155.479Z" fill="#000000" />
                             </svg>
                             <div className="social-icons mt-4 mt-md-0">
-                                <a href="#" className="text-black me-3"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                {/* <a href="#" className="text-black me-3"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                                     <path d="M15.3076 13.0418L22.3808 4.99658H20.7046L14.563 11.9821L9.65769 4.99658H4L11.4178 15.5599L4 23.9966H5.67621L12.162 16.6196L17.3423 23.9966H23L15.3071 13.0418H15.3076ZM6.28016 6.23129H8.85472L20.7054 22.818H18.1308L6.28016 6.23129Z" fill="black" />
                                 </svg></a>
                                 <a href="#" className="text-black me-3"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
@@ -150,12 +155,13 @@ function MobilitySol() {
                                 </svg></a>
                                 <a href="#" className="text-black"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                                     <path d="M3.83479 13.345C6.1025 12.0749 8.63388 11.0149 10.9991 9.94942C15.0681 8.20429 19.1534 6.48941 23.2798 4.89287C24.0827 4.62084 25.5252 4.35481 25.6667 5.56458C25.5892 7.27699 25.2706 8.97939 25.0521 10.6818C24.4973 14.4255 23.8562 18.1564 23.231 21.8878C23.0156 23.1307 21.4843 23.7741 20.5045 22.9787C18.1498 21.3615 15.777 19.76 13.4524 18.1053C12.6909 17.3185 13.397 16.1887 14.0771 15.6269C16.0165 13.6835 18.0733 12.0324 19.9113 9.98862C20.4071 8.77121 18.9422 9.79721 18.459 10.1116C15.8039 11.9719 13.2139 13.9459 10.4146 15.5809C8.98475 16.3812 7.31824 15.6972 5.88903 15.2506C4.60756 14.7112 2.72974 14.1677 3.83466 13.3451L3.83479 13.345Z" fill="black" />
-                                </svg></a>
+                                </svg></a> */}
+                                <a onClick={() => window.location.href = 'mailto:jas@sarabloh.ca'} className="text-black me-3"><i style={{fontSize:"28px"}} class="fa-regular fa-envelope "></i></a>
                             </div>
                         </div>
                         <div className="col-md-6 text-md-end d-flex flex-column justify-content-center mt-4 mt-md-0">
                             <a href="#" className="text-black text-decoration-none"><u> Terms of service</u>  |  <u> Privacy policy</u></a>
-                            <p className="text-black">Copyright © 2024 Sarbloh | All Rights Reserved </p>
+                            <p className="text-black">Copyright © 2024 Sarabloh | All Rights Reserved </p>
                         </div>
                     </div>
                 </div>
