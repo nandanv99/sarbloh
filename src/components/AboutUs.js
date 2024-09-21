@@ -28,7 +28,7 @@ const AboutUs = () => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item mx-2 p-2">
-                                    <Link className="nav-link text-white" to="/about">About</Link>
+                                    <Link className="nav-link text-white" to="/about">About us</Link>
                                 </li>
                                 <li className="nav-item mx-2 p-2">
                                     <Link className="nav-link text-white" to="/mobility">Solutions</Link>
@@ -185,7 +185,7 @@ const AboutUs = () => {
             <div className='container mt-4'>
                 <h3 className=' display-7 fw-bold'>Meet the Team</h3>
                 <p className='text-justify'>
-                    Together, we combine our expertise and creativity to drive innovation and make a positive impact on the world. 
+                Our team is a diverse group of passionate professionals dedicated to pushing the boundaries of what’s possible. Together, we combine our expertise and creativity to drive innovation and make a positive impact on the world. Get to know the individuals who are making our mission a reality and learn more about how we’re shaping the future of technology.
 
                 </p>
                 <div className="row">
@@ -244,7 +244,7 @@ const AboutUs = () => {
             <footer className="text-light py-4">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-md-6 d-flex flex-column flex-md-row   justify-content-md-start mb-3 mb-md-0">
+                        <div className="col-12 col-md-6 d-flex flex-column flex-md-row   justify-content-md-start mb-3 mb-md-0 gap-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="124" height="25" viewBox="0 0 174 36" fill="none">
                                 <path d="M36 18.0148L26.9923 9.00708V22.5187C26.9923 24.9837 24.984 24.9837 22.4886 22.5187L17.9847 18.0148V31.496C17.9847 33.9914 15.9763 33.9914 13.4809 31.496L9.0075 27.0226H4.50375C2.0084 27.0226 0 29.0311 0 31.496V35.9999H22.4886C24.984 35.9999 26.9923 33.9914 26.9923 31.496V27.0226H31.4962C33.9612 27.0226 36 24.9837 36 22.5187V18.0148Z" fill="#000000" />
                                 <path d="M0 18.0155L9.0075 27.0233V13.5116C9.0075 11.0467 11.016 11.0467 13.4809 13.5116L17.9847 18.0155V4.50388C17.9847 2.03892 20.0237 2.03892 22.4886 4.50388L26.9923 9.00776H31.4962C33.9612 9.00776 36 6.99927 36 4.50388V0H13.4809C11.016 0 9.0075 2.03892 9.0075 4.50388V9.00776H4.50375C2.0084 9.00776 0 11.0467 0 13.5116V18.0155Z" fill="#000000" />
@@ -262,7 +262,7 @@ const AboutUs = () => {
                         </div>
                         <div className="col-md-6 text-md-end d-flex flex-column justify-content-center mt-4 mt-md-0">
                             <a  className="text-black text-decoration-none"><u> Terms of service</u>  |  <u> Privacy policy</u></a>
-                            <p className="text-black">Copyright © 2024 Sarbloh | All Rights Reserved </p>
+                            <p className="text-black">Copyright © 2024 Sarabloh | All Rights Reserved </p>
                         </div>
                     </div>
                 </div>
