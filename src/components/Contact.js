@@ -73,7 +73,7 @@ const Contact = () => {
                         </form>
                     </div>
                     <div className="col-12 col-md-6 d-flex align-items-center justify-content-center mt-4 mt-md-0">
-                        <img src="/TestImages/7.png" alt="Contact" className="img-fluid" style={{ maxWidth: '100%', height: 'auto', aspectRatio: '1/1', objectFit: 'cover' }} />
+                        <img src="/TestImages/contact.jpeg" alt="Contact" className="img-fluid" style={{ maxWidth: '100%', height: 'auto', aspectRatio: '1/1', objectFit: 'cover' }} />
                     </div>
                 </div>
             </div>

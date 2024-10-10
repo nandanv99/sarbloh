@@ -215,7 +215,7 @@ const AboutUs = () => {
                             </div>
                             <div className="col-6 col-md-2">
                                 <div className="card bg-transparent text-white h-100 border-0">
-                                    <img src="/TestImages/11.jpg" className="card-img-top" alt="AI Solution" style={{ borderRadius: '14px 14px 64px 14px', background: 'url(/TestImages/10.png) lightgray 50% / cover no-repeat', height: '25vh', objectFit: 'cover', objectPosition: 'center' }} />
+                                    <img src="/TestImages/12.jpeg" className="card-img-top" alt="AI Solution" style={{ borderRadius: '14px 14px 64px 14px', background: 'url(/TestImages/10.png) lightgray 50% / cover no-repeat', height: '25vh', objectFit: 'cover', objectPosition: 'center' }} />
                                     <div className="card-body">
                                         <h5 className="card-title" style={{
                                             color: '#0D141C',

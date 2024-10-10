@@ -79,7 +79,7 @@ function MobilitySol() {
                         </p>
                     </div>
                     <div className="col-md-4 d-flex justify-content-center align-items-center">
-                        <img src="/TestImages/8.png" alt="Drone Delivery" className="img-fluid rounded" style={{ height: '25vh', objectFit: 'cover', width: '100%', borderRadius: '12px' }} />
+                        <img src="/TestImages/education.png" alt="Drone Delivery" className="img-fluid rounded" style={{ height: '25vh', objectFit: 'cover', width: '100%', borderRadius: '12px' }} />
                     </div>
                 </div>
                 <hr className='hide-on-mobile' />
@@ -96,7 +96,7 @@ function MobilitySol() {
                         </p>
                     </div>
                     <div className="col-md-4 d-flex justify-content-center align-items-center">
-                        <img src="/TestImages/8.png" alt="Drone Delivery" className="img-fluid rounded" style={{ height: '25vh', objectFit: 'cover', width: '100%', borderRadius: '12px' }} />
+                        <img src="/TestImages/AI_blockchain.png" alt="Drone Delivery" className="img-fluid rounded" style={{ height: '25vh', objectFit: 'cover', width: '100%', borderRadius: '12px' }} />
                     </div>
                 </div>
                 <hr className='hide-on-mobile' />
@@ -112,7 +112,7 @@ function MobilitySol() {
                         </p>
                     </div>
                     <div className="col-md-4 d-flex justify-content-center align-items-center">
-                        <img src="/TestImages/8.png" alt="Drone Delivery" className="img-fluid rounded" style={{ height: '25vh', objectFit: 'cover', width: '100%', borderRadius: '12px' }} />
+                        <img src="/TestImages/Mobility.png" alt="Drone Delivery" className="img-fluid rounded" style={{ height: '25vh', objectFit: 'cover', width: '100%', borderRadius: '12px' }} />
                     </div>
                 </div>
                 <hr className='hide-on-mobile' />
