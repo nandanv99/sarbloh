@@ -72,7 +72,7 @@ function Home() {
                 </div>
                 <div className="row mt-3">
                     {['Education', 'AI and Blockchain', 'Mobility Solutions'].map((topic, index) => {
-                        const images = ['/TestImages/Education_main.png', '/TestImages/AI_blockchain.png', '/TestImages/Mobility_main.png'];
+                        const images = ['/TestImages/education_main.png', '/TestImages/AI_blockchain.png', '/TestImages/Mobility_main.png'];
                         const descriptions = [
                             "Step into the world of decentralized innovation with our cutting-edge courses. From mastering the fundamentals of DAOs to specialized training in finance, marketing, and social media, our education programs are designed to equip you with the skills and knowledge to become a leader in the digital economy.",
                             "Transform your business with the power of artificial intelligence and blockchain technology. Our solutions help you unlock the value of your data, enhance security, and build systems that are both scalable and efficient. Step into the future with confidence and let innovation drive your success.",
