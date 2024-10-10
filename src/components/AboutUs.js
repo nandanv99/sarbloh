@@ -92,7 +92,7 @@ const AboutUs = () => {
                         
                         <div className="col mb-3">
                             <div className="card p-3  h-100" style={{ borderRadius: '8px', border: '1px solid #D1DBE8', background: '#F7FAFC' }}>
-                                <i className="fas fa-briefcase fa-2x mb-3" style={{ color: "black" }}></i>
+                                <i className="fas fa-solid fa-recycle fa-2x mb-3" style={{ color: "black" }}></i>
                                 <h6 className="font-weight-bold" style={{ color: "black" }}>Sustainability</h6>
                             </div>
                         </div>
